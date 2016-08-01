@@ -8,9 +8,16 @@ module.exports = function(config) {
       'bower_components/angular/angular.js',
       'bower_components/angular-route/angular-route.js',
       'bower_components/angular-mocks/angular-mocks.js',
-      'components/**/*.js',
-      'view*/**/*.js'
+      'bower_components/angular-animate/angular-animate.js',
+      'bower_components/jquery/dist/jquery.min.js',
+      'app.module.js',
+      'photo-feed/photo-feed.module.js',
+      'photo-feed/*.js'
     ],
+
+    client: {
+        captureConsole: true,
+    },
 
     autoWatch: true,
 
